@@ -1,0 +1,23 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 4em;
+  padding: 1rem;
+  border-radius: 50px;
+  top: 0;
+  border: 1px solid white;
+}
+.navbar img {
+  width: 8em;
+}
+.navbar ul{
+  list-style: none;
+}
+@media (max-width: 600px) {
+  .navbar img {
+    width: 5em;
+  }
+}
